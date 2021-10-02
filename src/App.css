@@ -13,6 +13,13 @@
   text-align: left;
   margin-bottom: 15px;
 }
+.taskcomplete {
+  background-color: greenyellow;
+  border: 2px black solid;
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 15px;
+}
 .todo,
 .date {
   margin-left: 25px;
