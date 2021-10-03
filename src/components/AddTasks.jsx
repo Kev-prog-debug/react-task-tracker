@@ -6,6 +6,9 @@ const AddTasks = ({ onAdd }) => {
   const onSubmit = (e) => {
     e.preventDefault();
     onAdd({ Todo, date, check });
+    setTodo("");
+    setDate("");
+    setCheck("");
   };
   return (
     <form onSubmit={onSubmit}>
